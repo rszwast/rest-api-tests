@@ -7,7 +7,7 @@
         <parameter name="emptyCategoryId" value=""></parameter>
         <parameter name="notExistingParameterId" value="notExistingParameterId"></parameter>
         <parameter name="emptyParameterId" value=""></parameter>
-        <parameter name="parentid" value="348"></parameter>
+        <parameter name="parentId" value="348"></parameter>
 
         <classes>
             <class name="tests.categories.and.parameters.CategoriesIdsAndParametersTests"/>
