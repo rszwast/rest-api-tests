@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Categories and Parameters tests">
+
+    <test name="Categories and Parameters API">
+        <parameter name="notExistingCategoryId" value="notExistingCategoryId"></parameter>
+        <parameter name="emptyCategoryId" value=""></parameter>
+        <parameter name="notExistingParameterId" value="notExistingParameterId"></parameter>
+        <parameter name="emptyParameterId" value=""></parameter>
+        <parameter name="parentid" value="348"></parameter>
+
+        <classes>
+            <class name="tests.categories.and.parameters.CategoriesIdsAndParametersTests"/>
+        </classes>
+    </test>
+
+
+</suite>
